@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.merriweather-font{
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* common style */
+body{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+section{
+    margin-bottom: 130px;
+}
+/* common style */
+/* header */
+nav{
+    max-height: 71px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>figure{
+    height: 100%;
+}
+nav>figure>img{
+    height: 100%;
+}
+.nav-menu>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.list-item{
+     
+    list-style: none;
+}
+.list-link{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+}
+.list-item:nth-child(1):hover , .list-item:nth-child(4):hover{
+    color: rgba(37, 36, 50, 1);
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+/* banner */
+.banner{
+    height: 461px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.banner-info h2{
+    font-size: 4.16rem;
+    font-weight: 800;
+    margin-bottom: -21px;
+}
+.banner-info h2>span{
+    color: rgba(233, 90, 8, 1);
+}
+.banner-info p{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.banner-img{
+    max-width: 570px;
+    max-height: 355px;
+}
+.banner-img img{
+    width: 100%;
+}
+/* header */
+
+
+/* responsive for mobile */
+@media screen and (max-width:576px){
+    .hidden {
+        background-color: aqua;
+       display: none;
+    }
+   nav{
+    height: 38px;
+   }
+   .banner{
+    flex-direction: column-reverse;
+     margin-top: 300px;
+   }
+   .banner-info{
+    margin: 20px;
+   }
+}
+/* responsive for mobile */
