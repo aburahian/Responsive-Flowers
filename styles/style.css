@@ -71,13 +71,8 @@ nav>figure>img{
     font-size: 1.375rem;
     color: rgba(0, 0, 0, 0.5);
 }
-.banner-img{
-    max-width: 570px;
-    max-height: 355px;
-}
-.banner-img img{
-    width: 100%;
-}
+
+
 /* header */
 
 
